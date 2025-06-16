@@ -215,6 +215,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .text {
@@ -782,7 +783,9 @@ img {
   .item {
     width: calc((100% - 24px) / 2);
   }
-
+  .title {
+    text-align: left;
+  }
   .list {
     gap: 24px;
   }
