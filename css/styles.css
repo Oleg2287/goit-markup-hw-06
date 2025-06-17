@@ -159,7 +159,6 @@ img {
 }
 
 .mine-title {
-  /* font-size: 56px; */
   font-size: 36px;
   max-width: 216px;
   margin: 0 auto 72px;
@@ -167,8 +166,7 @@ img {
   letter-spacing: 0.02em;
   color: #fff;
   text-align: center;
-  /* max-width: 496px;
-  margin: 0 auto 48px; */
+  /* margin: 0 auto 48px; */
   text-transform: capitalize;
 }
 
@@ -799,6 +797,20 @@ img {
   }
 
   /* -----------------main order----------------- */
+  .section-main {
+    min-width: 768px;
+    padding: 112px 0;
+  }
+
+  .mine-title {
+    font-size: 56px;
+    max-width: 496px;
+    margin: 0 auto 36px;
+  }
+
+  .order-button {
+    margin: 36px auto 0 auto;
+  }
 
   /* ---------About--------- */
 
