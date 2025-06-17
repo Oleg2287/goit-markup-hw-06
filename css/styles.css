@@ -115,6 +115,13 @@ img {
   font-style: normal; */
 }
 
+.menu-open-btn {
+  border: none;
+  background-color: transparent;
+  margin-left: 149px;
+  padding: 0;
+}
+
 .contacts {
   font-style: normal;
   margin-left: auto;
