@@ -62,8 +62,9 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   gap: 40px;
-  margin-right: 76px;
-  padding: 24px 0;
+  padding: 16px 0;
+  /* margin-right: 76px;
+  padding: 24px 0; */
 }
 
 .header-logo .logo-part {
@@ -101,15 +102,17 @@ img {
 }
 
 .nav-list {
-  display: flex;
-  gap: 40px;
+  display: none;
+  /* display: flex;
+  gap: 40px; */
 }
 
 .header-adress {
-  display: flex;
+  display: none;
+  /* display: flex;
   margin-left: auto;
   align-items: center;
-  font-style: normal;
+  font-style: normal; */
 }
 
 .contacts {
@@ -791,7 +794,7 @@ img {
   }
 
   .header-container {
-    max-width: 768px;
+    width: 768px;
   }
 
   /* -----------------main order----------------- */
@@ -931,7 +934,7 @@ img {
   }
 
   .header-container {
-    max-width: 1158px;
+    width: 1158px;
   }
 
   /* -----------------main order----------------- */
